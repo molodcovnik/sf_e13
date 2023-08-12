@@ -1,6 +1,6 @@
 import "./style.css";
 
-const mainBlock = document.querySelector('.wrapper-main');
+const mainBlock = document.querySelector(".wrapper-main");
 
 fetch("http://localhost:3000/posts/")
     .then(response => {
@@ -15,6 +15,6 @@ fetch("http://localhost:3000/posts/")
         });
     })
     .catch(error => {
-        console.log('error', error);
+        console.log("error", error);
     });
  

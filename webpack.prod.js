@@ -25,6 +25,7 @@ module.exports = {
         static: "./dist",
         port: 3001,
         open: true,
+        hot: false,
         allowedHosts: "all",
         client: {
             logging: "warn",
