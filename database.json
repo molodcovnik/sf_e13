@@ -1,0 +1,22 @@
+{
+    "posts": [
+      { "id": 1, "title": "this is 1 post", "author": "typicode" },
+      { "id": 2, "title": "this is 2 post", "author": "typicode" },
+      { "id": 3, "title": "this is 3 post", "author": "typicode" },
+      { "id": 4, "title": "this is 4 post", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "1 comment", "postId": 1 },
+      { "id": 2, "body": "2 comment", "postId": 3 },
+      { "id": 3, "body": "3 comment", "postId": 2 },
+      { "id": 4, "body": "4 comment", "postId": 1 },
+      { "id": 5, "body": "5 comment", "postId": 4 }
+    ],
+    "profile":[ 
+      { "id": 1, "name": "Николай" },
+      { "id": 2, "name": "Андрей" },
+      { "id": 3, "name": "Инна" },
+      { "id": 4, "name": "Мария" },
+      { "id": 5, "name": "Джон" }
+  ]
+  }
